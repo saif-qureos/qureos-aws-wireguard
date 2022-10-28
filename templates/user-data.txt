@@ -13,6 +13,7 @@ apt-get install -y \
   net-tools \
   jq \
   wireguard-dkms \
+  openresolv \
   wireguard-tools && \
   rm -rf /var/lib/apt/lists/*
 
